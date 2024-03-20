@@ -1,0 +1,60 @@
+%% XeLaTeX file for typsestting Tehillim 67 in the form the Menorah
+%% Licesned under LPPL v1.3c
+\documentclass[12pt]{article}
+\usepackage{tikz}
+\usetikzlibrary{decorations.text,positioning}
+\usepackage{polyglossia}
+\setmainlanguage{hebrew}
+\setmainfont{SBL Hebrew}
+
+\begin{document}
+
+\pagestyle{empty}
+\begin{tikzpicture}
+    % Shivisi
+    \node (yhwh) at (0,2.4) {\Huge יהוה};
+    \node (Svyty) at (1.5,2.5) {שויתי};
+    \node (lngdy) at (-1.5,2.6) {לנגדי};
+    \node (tmyd) at (0,1.7) {תמיד};
+    % El Shaddai
+    \node (el) at (3.5,2.6) {אל};
+    \node (Sdy) at (-3.5,2.5) {שדי};
+    % Da lifnei
+    \node (de) at (0,3.2) {הקב״ה המלכים מלכי מלך לפני עומד אתה מי לפני דע};
+    % Abg YtZ
+    \node [rotate=90] (abg) at (4.5,-3) {בטר יכש נגד שטן קרע יתץ אבג};
+    \node [rotate=-90] (Ztg) at (-4.5,-2.8) {צית שקו פזק יגל טנע חקב צתג};
+    % YAHDVNHY
+    \node (ya) at (3.1,2) {יאהדונהי};
+    \node (ay) at (-3.1,2) {אידהנויה};
+    % Adon hakol
+    \node (advn) at (3.1,1.5) {הכל אדון};
+    \node (hyh) at (-2.7,1.5) {ויהיה הוה היה};
+    % Ki imecha
+    \node (ky) at (2.5,0.75) {חיים מקור עמך כי};
+    \node (mark) at (-2.5,0.75) {אור נראה מאורך};
+    % Lamnatzeach
+    \node (n) at (0,0) {נ};
+    \node (tmz) at (-1.5,0) {תמז};
+    \node (mvr) at (-2.5,0) {מור};
+    \node (Syr) at (-3.5,0) {שיר};
+    \node (ngy) at (1.5,0) {נגי};
+    \node (ZHb) at (2.5,0) {צחב};
+    \node (lmn) at (3.5,0.07) {למנ};
+    \node [rotate=90] (ysmHv) at (0,-4.2) {מישﬧ עמיﬦ  ﬨשפט ﬤי ﬥﬡמיﬦ ויﬧננו ישמחו};
+    \draw [decoration={text along path, text={הלס םחנת ץראב םימאלו},text align={center}},decorate]  (-3,-10) to [bend right=-60]  (3.5,-10);
+    \node [rotate=90] (alhym) at (-3.5,-2.4) {ויבﬧﬤנו יחננו ﬡﬥﬣיﬦ};
+    \node [rotate=90] (ldet) at (-2.5,-2.4) {ﬢﬧﬤך בﬡﬧץ ﬥﬢעﬨ};
+    \node [rotate=90] (yvdvk) at (-1.5,-2.3) {יודוך אלהים עמים יודוך};
+    \node [rotate=90] (yvdvk1) at (1.5,-2.3) {יודוך אלהים עמים יודוך};
+    \node [rotate=90] (arZ) at (2.5,-2.2) {יבוﬥﬣ נﬨנﬣ ﬡﬧץ};
+    \node [rotate=90] (ybrknv) at (3.5,-2.6) {וייﬧﬡו ﬡﬥﬣיﬦ יבﬧﬤנו};
+    \draw [decoration={text along path, text={םלכ םימע},text align={center}},decorate]  (0.5,-5.4) to [bend right=-50]  (-1.5,-3.5);
+    \draw [decoration={text along path, text={ךתעושי םיוג לכב},text align={center}},decorate]  (0.5,-6.1) to [bend right=-100]  (-2.2,-3.5);
+    \draw [decoration={text along path, text={ﬣﬥס ונﬨﬡ וינפ ﬧﬡי},text align={center}},decorate]  (0.5,-6.8) to [bend right=-80]  (-3,-3.5);
+    \draw [decoration={text along path, text={םלכ םימע},text align={center}},decorate]  (-0.5,-5.5) to [bend left=-70]  (1.5,-3.5);
+    \draw [decoration={text along path, text={וניהלא םיהלא ונכרבי},text align={center}},decorate]  (0,-6.2) to [bend left=-450]  (2.3,-3.5);
+    \draw [decoration={text along path, text={ץﬧﬡ יספﬡ ﬥﬤ וﬨ‎	וﬡ},text align={center}},decorate]  (-1,-6.9) to [bend left=-90]  (3.5,-3.5);
+\end{tikzpicture}
+\end{document}
+
