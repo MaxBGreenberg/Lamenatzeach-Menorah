@@ -1,0 +1,27 @@
+\documentclass[12pt]{article}
+\usepackage{tikz}
+\usetikzlibrary{decorations.text,positioning}
+\usepackage{polyglossia}
+\setmainlanguage{hebrew}
+\setmainfont{SBL Hebrew}
+
+\begin{document}
+\begin{tikzpicture}
+    \node [rotate=90] (brkm) at (0,0) {גמﬥﬦ ﬨמיﬢ צﬢקﬨך ﬧחמי טﬣﬧﬦ בﬧﬤﬦ};
+    \node [rotate=90] (na) at (-0.7,1.62) {כבבת יחודך דושרי גבוﬧ נא};
+    \draw [decoration={text along path, text={םרמש}, text align={center}},decorate] (0.3,-1.6) to [bend left=90] (-0.4,-0.2);
+    \node [rotate=90](xsn) at (0.7,1.71) {נהﬥ טובך ברוב קדוש חסין};
+    \node [rotate=90] (qbl) at (-1.4,1.42) {טﬣﬧנו שגבנ עמך ﬧנﬨ קבﬥ};
+    \node [rotate=90] (jxd) at (1.4,1.4) {זוכﬧי פנﬣ ﬥעמך גﬡﬣ יחיﬢ};
+    \node [rotate=90] (ana) at (-2.1,1.77) {ימינך גﬢﬥﬨ בﬤח ﬡנﬡ};
+    \node [rotate=90] (Sw) at (2.1,1.52) {צעקﬨנו ושמע קבﬥ שעוﬨנו};
+    \draw [decoration={text along path, text={דעו םלועל ותוכלמ םש ךורב},text align={center}},decorate]  (-2.5,-5.4) to [bend right=-60]  (2.5,-5.4);
+    \draw [decoration={text along path, text={ךתדע}, text align={center}},decorate] (-0.5,-2) to [bend right=90] (0.4,0.5);
+    \draw [decoration={text along path, text={ךתשדק}, text align={center}},decorate] (0,-2.1) to [bend right=90] (1.4,-0.7);
+    \draw [decoration={text along path, text={ﬨומﬥעﬨ עﬢוי}, text align={center}},decorate] (0, -2.9) to [bend right=90] (2, -0.5);
+    \draw [decoration={text along path, text={ﬡﬧונ}, text align={center}},decorate] (0,-2.1) to [bend left=90] (-1,-0.5);
+    \draw [decoration={text along path, text={ﬣﬧוﬧצ ﬧיﬨﬨ}, text align={center}},decorate] (0,-2.7) to [bend left=90] (-1.6,0);
+        \node [rotate=90] (abg) at (-2.8,1) {בטר יכש נגד שטן קרע יתץ אבג};
+    \node [rotate=-90] (Ztg) at (2.8,1) {צית שקו פזק יגל טנע חקב צתג};
+\end{tikzpicture}
+\end{document}
